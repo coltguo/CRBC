@@ -1487,7 +1487,8 @@ form.animate .form-group:before {
 
 #contacts {
     padding: 98px 0 54px;
-    color: #fff
+    color: #fff;
+   
 }
 
 #contacts:after {

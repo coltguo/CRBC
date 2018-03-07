@@ -1487,7 +1487,8 @@ form.animate .form-group:before {
 
 #contacts {
     padding: 98px 0 54px;
-    color: #fff
+    color: #fff;
+    background-color: #0f2646;
 }
 
 #contacts:after {
@@ -1561,7 +1562,8 @@ form {
     z-index: 50;
     position: relative;
     display: block;
-    padding: 182px 25px 0 50px
+    padding: 182px 25px 0 50px;
+    margin-left: 210px;
 }
 
 #contacts .form #tnx * {

@@ -262,7 +262,7 @@
     <!-- Contacts -->
     <section id="contacts">
         <div class="box">
-            <div class="half animate">
+            <!-- <div class="half animate">
                 <p class="logo-b">
                     <img src="picture/logo-b.png" alt="">
                 </p>
@@ -270,7 +270,7 @@
                     <li>
                         <p class="country">官方QQ群</p>
                         <p class="city">4群：691935201</p>
-                        <!-- <p class="city">3群：169501060</p> -->
+                        <p class="city">3群：169501060</p>
                     </li>
                     <li>
                         <p class="country">商务合作</p>
@@ -290,21 +290,20 @@
                     </li>
                 </ul>
                 <ul class="dt">
-<!--                     <li>
+                    <li>
                         <p class="country">官方QQ群</p>
                         <p class="city">648613596</p>
                     </li>
                     <li>
                         <p class="country">官方邮箱</p>
                         <p class="city">contact@wearechain.com</p>
-                    </li> -->
+                    </li>
                     <li style="width: 100%">
                         <p class="country" style="margin-bottom: 18px;">客服二维码</p>
                         <p class="city" id="cc">
                             <img src="picture/1.jpg" alt="">
                             <img src="picture/2.jpg" alt="">
                             <img src="picture/3.jpg" alt="">
-
                         </p>
                     </li>
                 </ul>
@@ -312,7 +311,7 @@
                     <div class="cont">
                         <p class="country">官方QQ群</p>
                         <p class="city">4群：691935201</p>
-                        <!-- <p class="city">3群：169501060</p> -->
+                        <p class="city">3群：169501060</p>
                     </div>
                     <div class="cont">
                         <p class="country">商务合作</p>
@@ -349,36 +348,59 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="half form active">
                 <a href="#" class="mob" id="toggle-form"></a>
                 <div id="tnx">
                     <h2><span class="thx-comment">提交成功！</span></h2>
                     <p><span class="thx-text"></span></p>
                     <a style="display:none" href="/portfolio" class="btn btn-green">To portfolio            <i class="arrow"></i>
-        </a>
+                    </a>
                 </div>
                 <form id="feedback-form" class="animate" action="/feedback/request" method="post">
                     <input type="hidden" name="_csrf" value="bW1UdEs1UEMvGD1ZLVt9CA8JEwV6fAIoNzQ1ORlHHxcnBWUaBlBnOw==">
-                    <h4>给我们留言</h4>
+                    <h4>融资需求</h4>
                     <div class="form-group field-feedbackform-name required">
                         <label class="control-label" for="feedbackform-name"></label>
-                        <input type="text" id="feedbackform-name" maxlength="20" class="form-control" name="name" placeholder="您的名字" aria-required="true">
-
+                        <input type="text" id="feedbackform-name" maxlength="20" class="form-control" name="name" placeholder="公司名称" aria-required="true">
                         <div class="help-block"></div>
                     </div>
-                    <div class="form-group field-feedbackform-email required">
+                    <div class="form-group field-feedbackform-introduce required">
+                        <label class="control-label" for="feedbackform-text"></label>
+                        <textarea id="feedbackform-text" maxlength="300" class="form-control" name="introduce" placeholder="企业介绍" aria-required="true"></textarea>
+                        <div class="help-block"></div>
+                    </div> 
+                    <div class="form-group field-feedbackform-corp required">
                         <label class="control-label" for="feedbackform-email"></label>
-                        <input type="text" id="feedbackform-email" maxlength="50" class="form-control" name="email" placeholder="您的邮件地址" aria-required="true">
-
+                        <input type="text" id="feedbackform-email" maxlength="20" class="form-control" name="corp" placeholder="企业法人" aria-required="true">
                         <div class="help-block"></div>
                     </div>
-                    <div class="form-group field-feedbackform-text required">
+                    <div class="form-group field-feedbackform-sign required">
+                        <label class="control-label" for="feedbackform-email"></label>
+                        <input type="text" id="feedbackform-email" maxlength="20" class="form-control" name="sign" placeholder="企业标志" aria-required="true">
+                        <div class="help-block"></div>
+                    </div>
+                    <div class="form-group field-feedbackform-phone required">
+                        <label class="control-label" for="feedbackform-email"></label>
+                        <input type="text" id="feedbackform-email" maxlength="20" class="form-control" name="phone" placeholder="联系电话" aria-required="true">
+                        <div class="help-block"></div>
+                    </div>
+                    <div class="form-group field-feedbackform-address required">
+                        <label class="control-label" for="feedbackform-email"></label>
+                        <input type="text" id="feedbackform-email" maxlength="20" class="form-control" name="address" placeholder="联系地址" aria-required="true">
+                        <div class="help-block"></div>
+                    </div>
+                    <div class="form-group field-feedbackform-link required">
+                        <label class="control-label" for="feedbackform-email"></label>
+                        <input type="text" id="feedbackform-email" maxlength="20" class="form-control" name="link" placeholder="官网链接" aria-required="true">
+                        <div class="help-block"></div>
+                    </div>
+                    <!-- <div class="form-group field-feedbackform-text required">
                         <label class="control-label" for="feedbackform-text"></label>
                         <textarea id="feedbackform-text" maxlength="300" class="form-control" name="text" placeholder="您的留言" aria-required="true"></textarea>
-
                         <div class="help-block"></div>
-                    </div> <a id="submit-feedback-btn" class="btn btn-green">提交</a> </form>
+                    </div>  -->
+                    <a id="submit-feedback-btn" class="btn btn-green">提交</a> </form>
             </div>
         </div>
     </section>
