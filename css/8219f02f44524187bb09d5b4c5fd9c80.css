@@ -1,0 +1,12 @@
+﻿@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(../fonts/z7nfdqdnbtkabzaiol9il_o6kjj73e7ff1ghduxmqg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(../fonts/z7nfdqdnbtkabzaiol9il_o6kjj73e7ff0gmduxmqg.ttf) format('truetype');
+}

@@ -1,0 +1,11 @@
+﻿/**
+ * @web/uploads/custom-style.css
+ */
+
+#contacts a {
+ color: #10c18a;
+}
+#loader .fd-inner {
+  bottom: -100px;
+  transition: 0.7s all ease-out;
+}

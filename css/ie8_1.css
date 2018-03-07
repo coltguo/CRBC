@@ -1,0 +1,9 @@
+﻿#gallery ul .mask{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+#gallery ul li .mask{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+input {
+	line-height: 42px;
+}
